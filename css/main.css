@@ -103,6 +103,7 @@ html, body {
 	background-color: #fff;
 	margin-top: 50px;
 	height: 230px;
+	border-radius: 5px;
 }
 .email-form__title {
 	font-size: 24px;
