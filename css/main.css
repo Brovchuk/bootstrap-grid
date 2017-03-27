@@ -1,0 +1,138 @@
+html, body {
+	color: rgb(96, 96, 110);
+}
+.green-bg {
+	position: relative;
+	font-weight: 700;
+}
+.green-bg:before {
+	content: "";
+	position: absolute;
+	letter-spacing: 0;
+	bottom: 0;
+	width: 68px;
+	height: 21px;
+	background-color: #7beec7;
+	z-index: -1;
+}
+.landing {
+	background: url("../img/bg.jpg") no-repeat center center;
+	background-size: cover;
+	height: 500px;
+	position: relative;
+	z-index: 1;
+}
+.bg-dark {
+	background: url("../img/Shape 14.png") no-repeat center center;
+	background-size: cover;
+	z-index: 2;
+	height: 500px;
+	opacity: .6;
+}
+.container-fluid__logo {
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 26px;
+	position: relative;
+	left: 7%;
+	top: 40px;
+}
+.container-fluid__logo:hover {
+	text-decoration: none;
+}
+.landing__name {
+	margin-top: 15%;
+	color: rgb(96, 96, 110);
+	font-weight: 700;
+	font-size: 46px;
+}
+.landing__descr {
+	color: rgb(96, 96, 110);
+	font-size: 18px;
+}
+.landing__descr a {
+	color: rgba(96, 96, 110, 0.8);
+}
+.general {
+	margin-top: 150px;
+}
+.benefits {
+	margin-top: 130px;
+	margin-bottom: 30px;
+}
+.benefits__descr {
+	margin-bottom: 70px;
+}
+.benefits__header {
+	font-weight: 700;
+}
+.section__team {
+	margin-top: 150px;
+}
+.team__descr {
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+.team__img {
+	margin-bottom: 20px;
+}
+.footer {
+	height: 330px;
+	background-color: #7beec7;
+}
+.slogan {
+	color: #fff;
+	font-weight: 700;
+}
+.slogan__title {
+	font-size: 34px;
+	font-weight: 700;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.slogan__btn {
+	background-color: #fff;
+	padding: 20px 35px;
+	color: #7beec7;
+}
+.slogan__btn:hover {
+	color: #7beec7;
+	text-decoration: none;
+}
+.email-form {
+	background-color: #fff;
+	margin-top: 50px;
+	height: 230px;
+}
+.email-form__title {
+	font-size: 24px;
+	font-weight: 700;
+	color: rgb(96, 96, 110);
+	width: 70%;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 20px;
+}
+.email-form__descr {
+	color: #999999;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+.email-form__input {
+	width: 350px;
+	border: 1px solid #999999;
+	height: 50px;
+	position: relative;
+	font-size: 24px;
+	padding-left: 10px;
+}
+.email-form__btn {
+	background-color: #7beec7;
+	border: none;
+	height: 50px;
+	width: 135px;
+	position: absolute;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+}
